@@ -1,0 +1,27 @@
+# General Ignores + IDE
+.DS_Store
+settings.xml
+WEB-INF
+.env
+
+# logs + tests
+logs/**
+tests/results/**
+
+# npm
+**/node_modules/*
+npm-debug.log
+yarn-error.log
+
+## Ignored Dependencies
+coldbox/*
+testbox/*
+modules/*
+modules/**/apidocs/**
+config/.htaccess
+config/Application.cfc
+config/CacheBox.cfc
+config/Coldbox.cfc
+config/Router.cfc
+config/WireBox.cfc
+.cfconfig.json

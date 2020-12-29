@@ -1,0 +1,8 @@
+{
+    "name":"numerology",
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    }
+}
